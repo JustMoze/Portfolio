@@ -1,0 +1,39 @@
+footer {
+    height: 10vh;
+    display: block;
+    justify-content: center;
+    width: 100vw;
+    z-index: 1;
+}
+
+footer .icons {
+    height: 60%;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, .9);
+    padding-left: 25px;
+    padding-right: 25px;
+
+}
+footer .copyright {
+    height: 40%;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(0, 0, 0);
+}
+footer .copyright p {
+    color: white;
+    margin: 0px;
+    font-size: 12px;
+}
+.selfIcons {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    cursor: pointer;
+    display: inline;
+    margin-right: 30px;
+}
